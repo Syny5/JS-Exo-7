@@ -1,6 +1,6 @@
 function formulaire()
 {
-  var pointure = shoeSize.value
-  var naissance = yearOfBirth.value
-  alert((pointure * 2 + 5) * 50 - naissance + 1766 )
+  let pointure = shoeSize.value;
+  let naissance = yearOfBirth.value;
+  alert((pointure * 2 + 5) * 50 - naissance + 1766 );
 }
